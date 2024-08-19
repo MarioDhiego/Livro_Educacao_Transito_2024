@@ -1,0 +1,36 @@
+\documentclass[output=paper,colorlinks,citecolor=brown]{langscibook}
+\author{Geisa Acácia Tavares and Lucas Milhomen\orcid{}\affiliation{}}
+%\ORCIDs{}
+
+\title{Projeto Multiplicador em Educação de Trânsito}
+\abstract{Change the  abstract in chapters/03.tex}
+
+
+\IfFileExists{../localcommands.tex}{
+   \addbibresource{../localbibliography.bib}
+   \input{../localpackages}
+   \input{../localcommands}
+   \input{../localhyphenation}
+   \boolfalse{bookcompile}
+   \togglepaper[23]%%chapternumber
+}{}
+
+\begin{document}
+\maketitle
+
+\section{Introdução} 
+
+
+
+
+
+\section{}
+%\citet{Nordhoff2018} is useful for compiling bibliographies.
+
+
+%\section*{Contributions}
+%John Doe contributed to conceptualization, methodology, and validation.
+%Jane Doe contributed to the writing of the original draft, review, and editing.
+
+{\sloppy\printbibliography[heading=subbibliography,notkeyword=this]}
+\end{document}
